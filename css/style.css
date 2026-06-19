@@ -1,6 +1,16 @@
+
 header{
 
+    display: flex;
     background-color: black;
+
+}
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 
 }
 
@@ -8,9 +18,17 @@ nav ul{
 
     display: flex;
     list-style: none;
+    align-items: center;
     gap: 30px;
     margin: 0px;
 
+}
+
+nav li{
+
+    display: flex;
+    color: white;
+    padding: 10px
 }
 
 body{
@@ -22,15 +40,31 @@ body{
 
 }
 
-nav li{
 
-    color: white;
-    padding: 10px
-}
 
 nav a{
 
     text-decoration: none;
     color: white;
-    
+
+}
+#footer_title{
+
+    color: white;
+
+}
+footer{
+
+    padding: 250px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    font-size: 200px;
+    box-shadow: 10px 10px, -10px -10px color grey;
+    background-image: url("../images/imagen4.jpg");
+
+}
+
+li:hover{
+
+    background-color: grey;
 }
